@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mainsheet.css">
+    <title>Strip Label(by Pratyush Bhatnagar)</title>
+</head>
+<body>
+    <div class="container">
+        <div class="grid1">
+            <h1 class="Logo">1</h1>
+            <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quod placeat aliquam, consectetur nisi iusto, saepe porro impedit beatae repudiandae perspiciatis provident fugit, earum delectus exercitationem odit eaque possimus iure!</p>
+           </div>
+           <div class="grid2">
+           <h1 class="Logo">2</h1>
+            <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quod placeat aliquam, consectetur nisi iusto, saepe porro impedit beatae repudiandae perspiciatis provident fugit, earum delectus exercitationem odit eaque possimus iure!</p>
+            </div>
+            <div class="grid3">
+            <h1 class="Logo">3</h1>
+            <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quod placeat aliquam, consectetur nisi iusto, saepe porro impedit beatae repudiandae perspiciatis provident fugit, earum delectus exercitationem odit eaque possimus iure!</p>
+            </div>
+            <div class="grid4">
+            <h1 class="Logo">4</h1>
+            <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quod placeat aliquam, consectetur nisi iusto, saepe porro impedit beatae repudiandae perspiciatis provident fugit, earum delectus exercitationem odit eaque possimus iure!</p>
+        </div>
+     </div>
+     <script src="jquery/jquery.js"></script>
+     <script>
+    $('*').ready(function(){     
+     $('.grid1').on('mouseenter', function () {
+      $('.grid1').addClass('active1');
+     });
+     $('.grid1').on('mouseleave', function () {
+      $('.grid1').removeClass('active1');
+     });
+     $('.grid4').on('mouseenter', function () {
+      $('.grid4').addClass('active4');
+     });
+     $('.grid4').on('mouseleave', function () {
+      $('.grid4').removeClass('active4');
+     });
+     $('.grid2').on('mouseenter', function () {
+      $('.grid2').addClass('active2');
+     });
+     $('.grid2').on('mouseleave', function () {
+      $('.grid2').removeClass('active2');
+     });
+     $('.grid3').on('mouseenter', function () {
+      $('.grid3').addClass('active3');
+     });
+     $('.grid3').on('mouseleave', function () {
+      $('.grid3').removeClass('active3');
+     });
+    });
+     </script>      
+</body>
+</html>

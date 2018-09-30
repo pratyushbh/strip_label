@@ -1,0 +1,232 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.container{
+    
+    height: 100vh;
+    overflow: hidden;
+}
+.container .grid1{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    border-right:5px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    transition: all 1s;
+}
+.container .grid2{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    border-right:5px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    transition: all 1s;
+}
+.container .grid3{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    border-right:5px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    transition: all 1s;
+}
+.container .grid4{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    border-right:5px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    transition: all 1s;
+}
+.Logo{
+ font-size: 4rem;
+ background: #3f3f3f;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ margin-left: auto;
+ margin-right: auto;
+ color: #fff;
+ transition: 1s;
+}
+.container .info{
+  color: #fff;
+  font-size: 2rem;
+}
+.container .active1{
+    background-image:url('background/1st.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+    width: 25%;
+    height: 100vh;
+    border-right:5px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    transition: all 1s;
+}
+.container .active2{
+    background-image:url('background/2nd.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+    width: 25%;
+    height: 100vh;
+    border-right:5px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    transition: all 1s;
+}
+.container .active3{
+    background-image:url('background/3rd.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+    width: 25%;
+    height: 100vh;
+    border-right:5px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    transition: all 1s;
+}
+.container .active4{
+    background-image:url('background/4th.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+    width: 25%;
+    height: 100vh;
+    border-right:5px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    transition: all 1s;
+}
+@media(max-width:425px){
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: rgba(0, 0, 0, 0.2);
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    }
+    .container{
+        width: 100%;
+        height: 50% ;
+        overflow: hidden;
+    }
+    .container .grid1{
+        float: left;
+        width: 100%;
+        height: 25%;
+        border-bottom:5px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        text-align: center;
+        transition: all 1s;
+    }
+    .container .grid2{
+        float: left;
+        width: 100%;
+        height: 25%;
+        border-bottom:5px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        text-align: center;  
+        transition: all 1s;
+    }
+    .container .grid3{
+        float: left;
+        width: 100%;
+        height: 25%;
+        border-bottom:5px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        text-align: center;
+        transition: all 1s;
+    }
+    .container .grid4{
+        float: left;
+        width: 100%;
+        height: 25%;
+        border-bottom:5px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        text-align: center;
+        transition: all 1s;
+    }
+    .Logo{
+     font-size: 4rem;
+     background: #3f3f3f;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     color: #fff;
+     transition: 1s;
+    }
+    .container .info{
+      color: #fff;
+      font-size: 2rem;
+    }
+    .container .active1{
+        background-image:url('background/1st.jpg');
+        background-position: center;
+        background-size: cover;
+        float: left;
+        width: 100%;
+        height: 25%;
+        border-bottom:5px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        text-align: center;
+        transition: all 1s;
+    }
+    .container .active2{
+        background-image:url('background/2nd.jpg');
+        background-position: center;
+        background-size: cover;
+        float: left;
+        width: 100%;
+        height: 25%;
+        border-bottom:5px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        text-align: center;
+        transition: all 1s;
+    }
+    .container .active3{
+        background-image:url('background/3rd.jpg');
+        background-position: center;
+        background-size: cover;
+        float: left;
+        width: 100%;
+        height: 25%;
+        border-bottom:5px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        text-align: center;
+        transition: all 1s;
+    }
+    .container .active4{
+        background-image:url('background/4th.jpg');
+        background-position: center;
+        background-size: cover;
+        float: left;
+        width: 100%;
+        height: 25%;
+        border-bottom:5px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        text-align: center;
+        transition: all 1s;
+    }
+}
